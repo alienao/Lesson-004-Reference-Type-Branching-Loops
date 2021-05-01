@@ -1,5 +1,8 @@
 // Check if a numberis a multiple of 3, 5 or 7 and output the appropriate message.
 let number = +prompt("Enter a number", "");
+
+[3, 5, 7];
+
 if (number % 3 === 0) {
   console.log(`${number} is a multiple of 3`);
 } else if (number % 5 === 0) {
